@@ -10,6 +10,11 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
 }
+var estaciones = ['inverno', 'otoño', 'verano', 'primavera'];
+estaciones.shift();
+console.log(estaciones);
+estaciones.unshift('invierno');
+console.log(estaciones);
 
 
 function obtenerLargoDelArray(array) {
